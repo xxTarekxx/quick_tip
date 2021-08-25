@@ -1,12 +1,13 @@
 html {
     font-size: 10px;
-    font-weight: bolder;
     color: #264653;
+    
 }
 
 main{
+    font-weight: 500;
     max-width: 50rem;
-    margin: 2rem auto;
+    margin: 1.8rem auto;
     background: linear-gradient(-40deg, #1b0ce7, #ff0004);
     padding: 3rem 1.6rem 6rem 1.6rem;
     border-radius: 8rem;
@@ -17,12 +18,39 @@ h1 {
     text-align: center;
     font-size: 3rem;
     margin: 0;
-    padding: 3rem;
+    padding-bottom: 3rem;
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(255, 255, 255, 0.151);
     border-radius: 1rem;
-    font-size: 1.8rem;
-    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-size: 2.5rem;
+    padding: 0 1.6rem;
+}
+
+section > div {
+    padding: 1.6rem 0;
+}
+
+.bill {
+    display: flex;
+}
+
+.bill label {
+    padding-top: 10px;
+    flex: 1;
+}
+
+.bill input {
+    flex: 5;
+    margin-right: 2rem;
+}
+
+input[type="number"]{
+    background: rgb(214, 206, 206);
+    font-size: 1.6rem;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 0.8rem 0rem 0.8rem 0.8rem;
 }
