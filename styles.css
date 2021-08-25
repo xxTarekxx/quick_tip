@@ -5,7 +5,7 @@ html {
 }
 
 main{
-    font-weight: 500;
+    font-weight: 400;
     max-width: 50rem;
     margin: 1.8rem auto;
     background: linear-gradient(-40deg, #1b0ce7, #ff0004);
@@ -38,19 +38,30 @@ section > div {
 }
 
 .bill label {
-    padding-top: 10px;
+    align-self: center;
     flex: 1;
 }
 
 .bill input {
     flex: 5;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 input[type="number"]{
-    background: rgb(214, 206, 206);
+    background: rgb(255, 255, 255);
     font-size: 1.6rem;
-    border: 3px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 0.5rem;
     padding: 0.8rem 0rem 0.8rem 0.8rem;
+    box-shadow: inset -110px 0px 99px -17px #6e05d1;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-size: 2rem;
+    font-weight: 700;
 }
