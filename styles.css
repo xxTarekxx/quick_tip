@@ -1,13 +1,28 @@
 html {
     font-size: 10px;
+    font-weight: bolder;
     color: #264653;
 }
 
 main{
     max-width: 50rem;
     margin: 2rem auto;
-    background: linear-gradient(35deg, #f10509, #7c0507);
+    background: linear-gradient(-40deg, #1b0ce7, #ff0004);
     padding: 3rem 1.6rem 6rem 1.6rem;
     border-radius: 8rem;
     box-shadow: 0px 0px 12px 12px #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 3rem;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    padding: 1.6rem;
 }
