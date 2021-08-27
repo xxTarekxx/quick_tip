@@ -1,3 +1,5 @@
+
+
 function currency(value){
    value = value.toFixed(2);
    return "$ " + value;
@@ -23,3 +25,11 @@ function update(){
 
 let container = document.getElementById('container');
 container.addEventListener('input', update);
+
+function myReset() {
+   var form = document.getElementById('container');
+   form.reset();
+ }
+
+
+

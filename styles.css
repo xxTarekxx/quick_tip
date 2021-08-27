@@ -4,7 +4,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-main{
+form{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     max-width: 50rem;
@@ -85,4 +85,12 @@ input[type="number"]{
     border-radius: 50%;
     background: linear-gradient(80deg, #1b0ce7, #ff0004);
     cursor: pointer;
+}
+
+.resetButton {
+    display: block;
+    margin: auto;
+    background: linear-gradient(180deg, #1b0ce7, #938dee);
+    color: white;
+    border-radius: 2rem;
 }
