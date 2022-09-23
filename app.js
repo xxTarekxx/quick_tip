@@ -26,9 +26,9 @@ function update(){
 let container = document.getElementById('container');
 container.addEventListener('input', update);
 
-function myReset() {
-   var form = document.getElementById('container');
-   form.reset();
+function reload() {
+   var form = document.getElementById('body');
+   window.location.reload();
  }
 
 
